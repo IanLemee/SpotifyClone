@@ -11,8 +11,8 @@ export function SpotifyUserParaUsuario(user: SpotifyApi.CurrentUsersProfileRespo
 
 export function SpotifyPlaylistParaPlaylist(playlist: SpotifyApi.PlaylistObjectSimplified): IPlaylist{
     return {
-        id: playlist.id,
-        nome: playlist.name,
-        imageUrl: playlist.images.pop().url
-    }
-}
+      id: playlist.id,
+      nome: playlist.name,
+      imagemUrl: playlist.images.pop().url
+    };
+  }

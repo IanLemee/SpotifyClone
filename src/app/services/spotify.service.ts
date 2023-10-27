@@ -11,7 +11,7 @@ import { IPlaylist } from '../interfaces/IPlaylist';
 })
 export class SpotifyService {
 
-  spotifyApi: Spotify.SpotifyWebApiJs = null
+  spotifyApi: Spotify.SpotifyWebApiJs = null;
   usuario: IUsuario
 
   constructor(private router: Router) {
@@ -41,7 +41,6 @@ export class SpotifyService {
  async obterSpotifyUsuario() {
     const userInfo = await this.spotifyApi.getMe();
     this.usuario = SpotifyUserParaUsuario(userInfo);
-    
   }
 
   obterUrlLogin() {
@@ -66,10 +65,10 @@ export class SpotifyService {
     localStorage.setItem('token', token);
   }
 
-  async buscarPlaylistUsuario(offset = 0, limit = 50): Promise<IPlaylist[]> {
-    const playlist = await this.spotifyApi.getUserPlaylists(this.usuario.id, { offset, limit })
-    console.log(playlist)
-    return playlist.items.map(SpotifyPlaylistParaPlaylist)
+  async buscarPlaylistUsuario(offset = 0, limit = 50): Promise<IPlaylist[]>{
+    const playlists = await this.spotifyApi.getUserPlaylists(this.usuario.id, { offset, limit });
+    console.log(playlists)
+    return playlists.items.map(SpotifyPlaylistParaPlaylist);
   }
   
 }
