@@ -7,5 +7,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body, html {
   background-color: $cor-fundo;
+}
+
+.flex {
+  display: flex;
+  
+  &.flex-center {
+    justify-content: center;
+    align-items: center;
+  }
 }
