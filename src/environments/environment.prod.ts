@@ -16,5 +16,4 @@ export const SpotifyConfiguration = {
       "playlist-read-private", // ler playlists privads
       "playlist-read-collaborative" // ler playlists colaborativas
     ]
-
 }
