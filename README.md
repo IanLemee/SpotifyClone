@@ -1,27 +1,10 @@
-# SpotifyClone
+Spotify Clone
+Português
+O Spotify Clone é um projeto que exemplifica a aplicação de boas práticas no desenvolvimento com Angular, incorporando uma série de algoritmos avançados para proporcionar uma experiência de usuário refinada. Este projeto é capaz de interagir diretamente com o aplicativo Spotify no seu computador, permitindo que você controle a reprodução de músicas diretamente da interface web. Graças à integração com a API do Spotify1, o Spotify Clone oferece funcionalidades como navegação pelas suas playlists, artistas mais escutados e suas músicas favoritas.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+Além disso, o projeto permite que a música selecionada seja tocada no seu aplicativo Spotify, desde que esteja aberto. Com rotas personalizadas e um design responsivo e moderno2, o Spotify Clone se adapta a diferentes dispositivos e tamanhos de tela, garantindo uma experiência consistente e agradável em todas as plataformas.
 
-## Development server
+English
+The Spotify Clone project is a testament to the application of best practices in Angular development, incorporating a range of advanced algorithms to deliver a refined user experience. This project is capable of directly interacting with the Spotify application on your computer, allowing you to control music playback right from the web interface. With integration to the Spotify API3, the Spotify Clone offers features such as navigating through your playlists, most-listened artists, and top tracks.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Furthermore, the project enables the selected music to be played on your Spotify application, provided it is open. Featuring custom routes and a responsive, modern design4, the Spotify Clone adapts to various devices and screen sizes, ensuring a consistent and enjoyable experience across all platforms.
